@@ -1,0 +1,145 @@
+@media (max-width: 1200px) 
+{
+    .cabecalho
+    {
+        padding: 10%;
+    }
+    .cabecalho_menu
+    {
+        justify-content: center;
+    }
+    .apresentacao 
+    {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao_conteudo
+    {
+        width: auto;
+    }
+       
+}
+*{
+        margin: 0;
+        padding: 0;
+}
+
+.titulo_destaque{
+      color: #d358f8;
+}
+
+.apresentacao {
+        padding: 6% 20%;
+        box-sizing: border-box;
+        background-color: black;
+        color: #f6f6f6;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 86px;
+
+}
+
+.apresentacao_conteudo{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+}
+
+.apresentacao_conteudo_titulo{
+        font-size: 2.25rem;
+        font-family:'Edu NSW ACT Foundation', cursive;
+}
+
+.apresentacao_conteudo_texto{
+        font-size: 1.25rem;
+        font-family:'Alkatra', cursive;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+}
+
+.apresentacao_links{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+        gap: 32px;
+}
+
+.apresentacao_links_apresentacao{
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        border: 2px solid var(--cor-terciaria);
+        width: 378px;
+        text-align: center;
+        border-radius: 8px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 21.5px 0;
+        text-decoration: none;
+        color: var(--cor-secundaria);
+        font-family:
+       var(--fonte-secundaria);
+       }
+       
+.apresentacao_links_apresentacao:hover {
+    background-color: #272727;
+   }
+
+.apresentacao_links_subtitulo{
+        font-family: 'Alkatra', cursive;
+        font-weight: 400;
+        size: 24px;
+}
+
+.apresentacao_img{
+        /*margin-left: 15px;*/
+        width: 50%;
+}
+
+.logo{
+        width: 32px;
+        height: 32px;
+}
+
+.rodape{
+        color: black;
+        background-color: #d358f8;
+        padding: 25px;
+        text-align: center;
+        font-family: 'Alkatra', cursive;
+        font-size: 1.5rem;
+        font-weight: 400;
+        }
+
+.cabecalho_menu_link {
+        font-family: 'Alkatra', cursive;
+        font-weight: 600;
+        font-size: 1.375rem;
+        color: #d358f8;
+        text-decoration: none;
+        background-color: black;
+ }
+
+ .cabecalho{
+        background-color: black;
+        padding:2% 0% 0% 15% ;
+ }
+
+ .cabecalho_menu {
+       display: flex;
+       gap: 60px;
+ }
+
+ :root {
+        --cor-primaria:#000000;
+        --cor-secundaria:#F6F6F6;
+        --cor-tercearia:#d358f8;
+        --cor-hover: #272727;
+        --fonte-principal:'Alkatra', cursive;
+        --fonte-secundaria: 'Montserrat',sans-serif ;
+ }
+ 
